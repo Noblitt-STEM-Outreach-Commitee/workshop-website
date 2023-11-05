@@ -4,6 +4,197 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../static/css/style.css">
+
+    <style>
+:root {
+    --main-color: rgb(230, 0, 76);
+    --navbar-height: 100px;
+    --navbar-logo-height: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    background: no-repeat url('../img/bg.jpg');
+}
+
+.courses {
+    padding-top: 6em;
+}
+
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    background-color: white;
+    z-index: 9999;
+}
+
+.navbar-logo {
+    margin-top: calc((var(--navbar-height) - var(--navbar-logo-height)) / 2);
+    margin-bottom: calc((var(--navbar-height) - var(--navbar-logo-height)) / 2);
+    margin-left: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: var(--navbar-logo-height);
+}
+
+.navbar-logo h1 {
+    color: var(--main-color);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-end {
+    display: flex;
+    align-items: center;
+}
+
+.lang-select {
+    width: 95px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    height: 40px;
+    outline: none;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+    appearance: none;
+    background: #fff;
+    margin-left: 8vw;
+    border-radius: 20px;
+    -moz-appearance: none;
+    text-align-last: center;
+    -webkit-appearance: none;
+    font-weight: 500;
+}
+
+.hero {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 890px;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    color: var(--main-color);
+    font-size: 45px;
+}
+
+.description {
+    font-size: 19px;
+}
+
+.button {
+    color: white;
+    font-size: 19px;
+    background-color: var(--main-color);
+    padding: .75em;
+    border-radius: 30px;
+    transition: all .3s;
+    margin-top: 1005px;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.0625);
+}
+
+.course {
+    width: 80%;
+    margin: auto;
+    transition: .3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 1.5em;
+}
+
+.course:hover {
+    transform: scale(1.025);
+}
+
+.course img {
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.course-content {
+    display: inline-block;
+}
+
+.course h1 {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.course p {
+    font-size: 19px;
+    width: 350px;
+    max-width: 100%;
+}
+
+a:link, a:link:visited, a:link:hover {
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+
+a.ref-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+a.ref-link:hover {
+    color: var(--main-color);
+    text-decoration: line-through;
+}
+
+.workshop {
+margin-left:5% ;
+margin-right:5% ;
+}
+
+#pfp{
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+
+        
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
