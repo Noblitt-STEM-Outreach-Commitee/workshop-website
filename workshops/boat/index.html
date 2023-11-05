@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Noblitt Scholars Workshops</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Rose%E2%80%93Hulman_Institute_of_Technology_seal.svg">
+            <h1>Noblitt STEM</h1>
+        </div>
+        <div class="navbar-end">
+            <select class="lang-select" id="lang-select">
+                <option value="en">English</option>
+                <option value="es">Espa&ntilde;ol</option>
+            </select>
+        </div>
+    </div>
+
+  
+
+    <div class="hero courses" id="courses">
+      <div class="workshop">
+        <center>
+      <h1>Building an Electric 3D printed boat!</h1>
+        
+          <p>In this workshop, you will learn the basics of boat design, fluid dynamics, and 3D printing!</p>
+          <div class="course">
+           
+              <iframe width="100%" height=50% src="https://www.youtube.com/embed/a0nJz5v2sQM?si=W9WnhPejS40pPgiy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+        </div>
+        <p>We understand that some of the technologies used in this workshop are not easily accessible. Please contact poundspb@rose-hulman.edu if you support in obtainig materials for this workshop!</p>
+          
+          
+              
+          <h3>
+            Made By
+          </h3>
+          <table>
+            <tr>
+              <th>
+          <img src="https://media.licdn.com/dms/image/D5603AQG7gJcUbF4uOg/profile-displayphoto-shrink_800_800/0/1699128096843?e=1704931200&v=beta&t=JqU6xufCNEpDyrMDjbwLn1XAgOFjLIePeLmEAGahuDw" id="pfp">
+          <a href="https://www.linkedin.com/in/adam-jirovec-aerospace/" target="_blank"><p><b>Adam Jirovec</b></p></a>
+              </th>
+              <th>
+              </th>
+              <th>
+                </th>
+              <th>
+          <img src="https://media.licdn.com/dms/image/D4D03AQGU-SSoZhRYjg/profile-displayphoto-shrink_800_800/0/1690873793547?e=1704931200&v=beta&t=kuSRs7n0DdE9NW7SDuKvl7qXF7Vmavd_FvtpbUbaX8M" id="pfp">
+          <a href="https://www.linkedin.com/in/shaun-yamamoto-91a520286/" target="_blank"><p><b>Shaun Yamamoto</b></p></a>
+            </th></tr>
+          </table>
+        </center>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/Noblitt-STEM-Outreach-Commitee" target="_blank">Open Sourced</a> created with ❤️, ☕️, & many 🍪 by <a class="ref-link" href="https://www.rose-hulman.edu/admissions-and-aid/financial-aid/scholarships-and-grants/noblitt-scholars-program/index.html" target="_blank">Rose-Hulman Noblitt Scholars</a>
+    </div>
+
+    <script>
+        const langSelect = document.getElementById('lang-select')
+        langSelect.oninput = () => {
+            window.location.href = langSelect.value
+        }
+    </script>
+</body>
+</html>
