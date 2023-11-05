@@ -172,3 +172,14 @@ a.ref-link:hover {
     color: var(--main-color);
     text-decoration: line-through;
 }
+
+.workshop {
+margin-left:5% ;
+margin-right:5% ;
+}
+
+#pfp{
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
