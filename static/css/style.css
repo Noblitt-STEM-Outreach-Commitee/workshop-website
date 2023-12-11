@@ -181,6 +181,10 @@ a:link, a:visited {
     color: blue;
 }
 
+a.button:link, a.button:visited {
+    color: white;
+}
+
 .workshop {
 margin-left:5% ;
 margin-right:5% ;
