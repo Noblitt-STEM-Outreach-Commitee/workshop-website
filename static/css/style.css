@@ -111,7 +111,7 @@ html {
     transform: scale(1.0625);
 }
 
-.course {
+.course, .workshop-video {
     width: 80%;
     margin: auto;
     transition: .3s;
@@ -121,7 +121,11 @@ html {
     padding: 1.5em;
 }
 
-.course:hover {
+.workshop-video {
+    height: 335px;
+}
+
+.course:hover, .workshop-video:hover {
     transform: scale(1.025);
 }
 
@@ -163,7 +167,7 @@ a:link, a:link:visited, a:link:hover {
     text-align: center;
 }
 
-a.ref-link {
+a.ref-link, a.ref-link:visited {
     color: inherit;
     text-decoration: underline;
     text-decoration-style: wavy;
@@ -171,6 +175,10 @@ a.ref-link {
 a.ref-link:hover {
     color: var(--main-color);
     text-decoration: line-through;
+}
+
+a:link:visited {
+    coor: inherit;
 }
 
 .workshop {
