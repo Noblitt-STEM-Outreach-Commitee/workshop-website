@@ -36,6 +36,7 @@ html {
     gap: 15px;
     justify-content: left;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar-logo img {
