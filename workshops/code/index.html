@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>Noblitt Scholars Workshops</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Rose%E2%80%93Hulman_Institute_of_Technology_seal.svg">
+            <h1>Noblitt STEM</h1>
+        </div>
+        <div class="navbar-end">
+            <select class="lang-select" id="lang-select">
+                <option value="https://noblitt-stem-outreach-commitee.github.io/workshop-website/workshops/boat/">English</option>
+                <option value="https://noblitt-stem-outreach-commitee.github.io/workshop-website/workshops/boat/es/">Espa&ntilde;ol</option>
+            </select>
+        </div>
+    </div>
+
+  
+
+    <div class="hero courses" id="courses">
+      <div class="workshop">
+        <center>
+      <h1>Highlightng code!</h1>
+
+          <pre><code class="language-python">
+            import code as lol
+            <br>
+            print("Hello world)
+          </code></pre>
+
+    <div class="footer">
+        <a href="https://github.com/Noblitt-STEM-Outreach-Commitee" target="_blank">Open Sourced</a> created with ❤️, ☕️, & many 🍪 by <a class="ref-link" href="https://www.rose-hulman.edu/admissions-and-aid/financial-aid/scholarships-and-grants/noblitt-scholars-program/index.html" target="_blank">Rose-Hulman Noblitt Scholars</a>
+    </div>
+
+    <script>
+        const langSelect = document.getElementById('lang-select')
+        langSelect.oninput = () => {
+            window.location.href = langSelect.value
+        }
+    </script>
+    <script src="/workshop-website/static/scripts/redirect.js"></script>
+
+</body>
+</html>
